@@ -28,7 +28,7 @@ public class TextFileService {
         try {
             return Files.readString(path, StandardCharsets.UTF_8);
         } catch (IOException e) {
-            throw new RuntimeException(e);
+           return "";
         }
     }
 

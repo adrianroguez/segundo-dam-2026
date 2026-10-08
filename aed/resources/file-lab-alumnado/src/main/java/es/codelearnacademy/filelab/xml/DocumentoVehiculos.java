@@ -4,6 +4,7 @@ import com.fasterxml.jackson.dataformat.xml.annotation.JacksonXmlElementWrapper;
 import com.fasterxml.jackson.dataformat.xml.annotation.JacksonXmlProperty;
 import com.fasterxml.jackson.dataformat.xml.annotation.JacksonXmlRootElement;
 import es.codelearnacademy.filelab.model.Vehiculo;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -22,10 +23,10 @@ public class DocumentoVehiculos {
     }
 
     public List<Vehiculo> getVehiculos() {
-        throw new UnsupportedOperationException("Función no implementada");
+        return vehiculos;
     }
 
     public void setVehiculos(List<Vehiculo> vehiculos) {
-        throw new UnsupportedOperationException("Función no implementada");
+        this.vehiculos = vehiculos;
     }
 }
