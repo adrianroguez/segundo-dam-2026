@@ -155,7 +155,7 @@ HAVING COUNT(*) >= 4
 ORDER BY media DESC;
 
 -- EJERCICIO 23
--- Mostrar productos mas caros que la me
+-- Mostrar productos mas caros que la media general.
 SELECT id, nombre, precio
 FROM Productos
 WHERE precio > (SELECT AVG(precio) FROM Productos)
