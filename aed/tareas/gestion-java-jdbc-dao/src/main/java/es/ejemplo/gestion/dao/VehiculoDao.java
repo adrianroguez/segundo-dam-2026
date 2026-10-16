@@ -3,15 +3,12 @@ package es.ejemplo.gestion.dao;
 import es.ejemplo.gestion.config.ConexionBD;
 import es.ejemplo.gestion.exception.AplicationException;
 import es.ejemplo.gestion.model.Vehiculo;
+
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
-import java.util.ArrayList;
-import java.util.LinkedHashMap;
-import java.util.List;
-import java.util.Map;
-import java.util.Optional;
+import java.util.*;
 
 public class VehiculoDao {
     private final ConexionBD conexionBD;

@@ -5,12 +5,15 @@ import es.ejemplo.gestion.dao.VehiculoDao;
 import es.ejemplo.gestion.model.Producto;
 import es.ejemplo.gestion.model.Vehiculo;
 import es.ejemplo.gestion.exception.AplicationException;
+
 import java.util.List;
 import java.util.Locale;
 import java.util.Optional;
 import java.util.Scanner;
 
-/** Interfaz por consola: no contiene SQL. */
+/**
+ * Interfaz por consola: no contiene SQL.
+ */
 public class MenuConsola {
     private final Scanner entrada = new Scanner(System.in);
     private final ProductoDao productoDao;
@@ -64,7 +67,8 @@ public class MenuConsola {
                     case 5 -> eliminarProducto();
                     case 6 -> mostrarProductos(productoDao.buscarPorNombre(leerTexto("Nombre (o parte): ")));
                     case 7 -> consultarRangoPrecios();
-                    case 0 -> { }
+                    case 0 -> {
+                    }
                     default -> System.out.println("Opción desconocida.");
                 }
             } catch (AplicationException e) {
@@ -97,7 +101,8 @@ public class MenuConsola {
                     case 5 -> eliminarVehiculo();
                     case 6 -> mostrarVehiculos(vehiculoDao.buscarPorMarca(leerTexto("Marca (o parte): ")));
                     case 7 -> consultarRangoAnios();
-                    case 0 -> { }
+                    case 0 -> {
+                    }
                     default -> System.out.println("Opción desconocida.");
                 }
             } catch (AplicationException e) {
@@ -106,7 +111,7 @@ public class MenuConsola {
         } while (opcion != 0);
     }
 
-    private void crearProducto()  {
+    private void crearProducto() {
         int id = leerEntero("ID (>0): ", 1);
         String nombre = leerTexto("Nombre: ");
         double precio = leerReal("Precio (>=0): ", 0);
@@ -114,7 +119,7 @@ public class MenuConsola {
                 ? "Producto creado." : "No se pudo crear el producto.");
     }
 
-    private void modificarProducto()  {
+    private void modificarProducto() {
         int id = leerEntero("ID del producto: ", 1);
         Optional<Producto> encontrado = productoDao.buscarPorId(id);
         if (encontrado.isEmpty()) {
@@ -128,7 +133,7 @@ public class MenuConsola {
                 ? "Producto actualizado." : "No se pudo actualizar.");
     }
 
-    private void eliminarProducto()  {
+    private void eliminarProducto() {
         int id = leerEntero("ID del producto: ", 1);
         if (productoDao.buscarPorId(id).isEmpty()) {
             System.out.println("No existe el producto.");
@@ -141,13 +146,13 @@ public class MenuConsola {
         }
     }
 
-    private void consultarRangoPrecios()  {
+    private void consultarRangoPrecios() {
         double min = leerReal("Precio mínimo: ", 0);
         double max = leerReal("Precio máximo: ", min);
         mostrarProductos(productoDao.buscarPorPrecio(min, max));
     }
 
-    private void crearVehiculo()  {
+    private void crearVehiculo() {
         String matricula = leerMatricula();
         String marca = leerTexto("Marca: ");
         String modelo = leerTexto("Modelo: ");
@@ -156,7 +161,7 @@ public class MenuConsola {
                 ? "Vehículo creado." : "No se pudo crear el vehículo.");
     }
 
-    private void modificarVehiculo()  {
+    private void modificarVehiculo() {
         String matricula = leerMatricula();
         Optional<Vehiculo> encontrado = vehiculoDao.buscarPorMatricula(matricula);
         if (encontrado.isEmpty()) {
@@ -171,7 +176,7 @@ public class MenuConsola {
                 ? "Vehículo actualizado." : "No se pudo actualizar.");
     }
 
-    private void eliminarVehiculo()  {
+    private void eliminarVehiculo() {
         String matricula = leerMatricula();
         if (vehiculoDao.buscarPorMatricula(matricula).isEmpty()) {
             System.out.println("No existe el vehículo.");
@@ -184,7 +189,7 @@ public class MenuConsola {
         }
     }
 
-    private void consultarRangoAnios()  {
+    private void consultarRangoAnios() {
         int desde = leerEntero("Año inicial: ", 1886);
         int hasta = leerEntero("Año final: ", desde);
         mostrarVehiculos(vehiculoDao.buscarPorAnio(desde, hasta));
@@ -261,7 +266,8 @@ public class MenuConsola {
             try {
                 int n = Integer.parseInt(leerLinea(mensaje));
                 if (n >= minimo) return n;
-            } catch (NumberFormatException ignored) { }
+            } catch (NumberFormatException ignored) {
+            }
             System.out.println("Introduce un número entero >= " + minimo + ".");
         }
     }
@@ -273,7 +279,8 @@ public class MenuConsola {
             try {
                 int n = Integer.parseInt(texto);
                 if (n >= minimo) return n;
-            } catch (NumberFormatException ignored) { }
+            } catch (NumberFormatException ignored) {
+            }
             System.out.println("Introduce un número entero >= " + minimo + " o pulsa Intro.");
         }
     }
@@ -284,7 +291,8 @@ public class MenuConsola {
             try {
                 double n = Double.parseDouble(texto);
                 if (Double.isFinite(n) && n >= minimo) return n;
-            } catch (NumberFormatException ignored) { }
+            } catch (NumberFormatException ignored) {
+            }
             System.out.println("Introduce un número >= " + minimo + ".");
         }
     }
@@ -296,7 +304,8 @@ public class MenuConsola {
             try {
                 double n = Double.parseDouble(texto);
                 if (Double.isFinite(n) && n >= minimo) return n;
-            } catch (NumberFormatException ignored) { }
+            } catch (NumberFormatException ignored) {
+            }
             System.out.println("Introduce un número >= " + minimo + " o pulsa Intro.");
         }
     }

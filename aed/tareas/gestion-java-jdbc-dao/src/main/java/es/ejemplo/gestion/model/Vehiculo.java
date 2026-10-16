@@ -13,8 +13,19 @@ public class Vehiculo {
         this.anio = anio;
     }
 
-    public String getMatricula() { return matricula; }
-    public String getMarca() { return marca; }
-    public String getModelo() { return modelo; }
-    public int getAnio() { return anio; }
+    public String getMatricula() {
+        return matricula;
+    }
+
+    public String getMarca() {
+        return marca;
+    }
+
+    public String getModelo() {
+        return modelo;
+    }
+
+    public int getAnio() {
+        return anio;
+    }
 }

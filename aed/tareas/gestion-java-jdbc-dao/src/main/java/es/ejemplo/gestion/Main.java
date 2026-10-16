@@ -3,6 +3,7 @@ package es.ejemplo.gestion;
 import es.ejemplo.gestion.config.ConexionBD;
 import es.ejemplo.gestion.exception.AplicationException;
 import es.ejemplo.gestion.ui.MenuConsola;
+
 import java.sql.Connection;
 import java.sql.SQLException;
 
