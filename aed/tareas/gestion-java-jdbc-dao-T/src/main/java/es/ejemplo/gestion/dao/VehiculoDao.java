@@ -48,15 +48,7 @@ public class VehiculoDao extends AbstractDao<Vehiculo> {
 
     public Optional<Vehiculo> buscarPorMatricula(String matricula) {
         // TODO: delegar en buscarPorId(matricula)
-        String sql = "SELECT matricula, marca, modelo, anio FROM Vehiculos WHERE matricula = ?";
-        try (Connection con = obtenerConexion();
-             PreparedStatement ps = con.prepareStatement(sql)) {
-            ps.setString(1, matricula);
-            return consultarUno(ps);
-        } catch (SQLException | RuntimeException e) {
-            registrar("listar productos", e);
-            return Optional.empty();
-        }
+        return buscarPorId(matricula);
     }
 
     public boolean eliminar(String matricula) {
