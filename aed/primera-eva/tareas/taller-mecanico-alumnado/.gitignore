@@ -3,3 +3,4 @@ target/
 *.sqlite3-journal
 .idea/
 *.iml
+.vscode/
