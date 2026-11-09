@@ -1,0 +1,17 @@
+es/codelearnacademy/filelab/service/ProductoServiceTest.class
+es/codelearnacademy/filelab/io/TextFileServiceTest.class
+es/codelearnacademy/filelab/support/FixtureSupport.class
+es/codelearnacademy/filelab/validation/ProductoValidatorTest.class
+es/codelearnacademy/filelab/xml/ProductoXmlRepositoryTest.class
+es/codelearnacademy/filelab/io/FilesServiceTest.class
+es/codelearnacademy/filelab/service/FileFormatTest.class
+es/codelearnacademy/filelab/io/FileServiceTest.class
+es/codelearnacademy/filelab/json/ProductoJsonRepositoryTest.class
+es/codelearnacademy/filelab/service/RepositoryFactoryTest.class
+es/codelearnacademy/filelab/support/ProductoRepositoryMemoria.class
+es/codelearnacademy/filelab/csv/ProductoCsvRepositoryTest.class
+es/codelearnacademy/filelab/repository/VehiculoRepositoryTest.class
+es/codelearnacademy/filelab/repository/ProductoRepositoryContractTest.class
+es/codelearnacademy/filelab/config/PropertiesConfigTest.class
+es/codelearnacademy/filelab/service/DataBridgeServiceTest.class
+es/codelearnacademy/filelab/io/PathServiceTest.class

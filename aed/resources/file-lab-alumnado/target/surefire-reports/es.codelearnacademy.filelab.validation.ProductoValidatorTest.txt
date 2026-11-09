@@ -1,0 +1,85 @@
+-------------------------------------------------------------------------------
+Test set: es.codelearnacademy.filelab.validation.ProductoValidatorTest
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 5, Errors: 0, Skipped: 0, Time elapsed: 0.004 s <<< FAILURE! -- in es.codelearnacademy.filelab.validation.ProductoValidatorTest
+es.codelearnacademy.filelab.validation.ProductoValidatorTest.rechazaPrecioNegativo -- Time elapsed: 0 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: Unexpected exception type thrown, expected: <java.lang.IllegalArgumentException> but was: <java.lang.UnsupportedOperationException>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:67)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:35)
+	at org.junit.jupiter.api.Assertions.assertThrows(Assertions.java:3128)
+	at es.codelearnacademy.filelab.validation.ProductoValidatorTest.rechazaPrecioNegativo(ProductoValidatorTest.java:29)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+Caused by: java.lang.UnsupportedOperationException: Función no implementada
+	at es.codelearnacademy.filelab.validation.ProductoValidator.validar(ProductoValidator.java:11)
+	at es.codelearnacademy.filelab.validation.ProductoValidatorTest.lambda$rechazaPrecioNegativo$3(ProductoValidatorTest.java:30)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:53)
+	... 6 more
+
+es.codelearnacademy.filelab.validation.ProductoValidatorTest.rechazaNombreVacio -- Time elapsed: 0 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: Unexpected exception type thrown, expected: <java.lang.IllegalArgumentException> but was: <java.lang.UnsupportedOperationException>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:67)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:35)
+	at org.junit.jupiter.api.Assertions.assertThrows(Assertions.java:3128)
+	at es.codelearnacademy.filelab.validation.ProductoValidatorTest.rechazaNombreVacio(ProductoValidatorTest.java:23)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+Caused by: java.lang.UnsupportedOperationException: Función no implementada
+	at es.codelearnacademy.filelab.validation.ProductoValidator.validar(ProductoValidator.java:11)
+	at es.codelearnacademy.filelab.validation.ProductoValidatorTest.lambda$rechazaNombreVacio$2(ProductoValidatorTest.java:24)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:53)
+	... 6 more
+
+es.codelearnacademy.filelab.validation.ProductoValidatorTest.rechazaStockNegativo -- Time elapsed: 0 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: Unexpected exception type thrown, expected: <java.lang.IllegalArgumentException> but was: <java.lang.UnsupportedOperationException>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:67)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:35)
+	at org.junit.jupiter.api.Assertions.assertThrows(Assertions.java:3128)
+	at es.codelearnacademy.filelab.validation.ProductoValidatorTest.rechazaStockNegativo(ProductoValidatorTest.java:35)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+Caused by: java.lang.UnsupportedOperationException: Función no implementada
+	at es.codelearnacademy.filelab.validation.ProductoValidator.validar(ProductoValidator.java:11)
+	at es.codelearnacademy.filelab.validation.ProductoValidatorTest.lambda$rechazaStockNegativo$4(ProductoValidatorTest.java:36)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:53)
+	... 6 more
+
+es.codelearnacademy.filelab.validation.ProductoValidatorTest.aceptaProductoValido -- Time elapsed: 0.001 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: Unexpected exception thrown: java.lang.UnsupportedOperationException: Función no implementada
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:152)
+	at org.junit.jupiter.api.AssertDoesNotThrow.createAssertionFailedError(AssertDoesNotThrow.java:84)
+	at org.junit.jupiter.api.AssertDoesNotThrow.assertDoesNotThrow(AssertDoesNotThrow.java:53)
+	at org.junit.jupiter.api.AssertDoesNotThrow.assertDoesNotThrow(AssertDoesNotThrow.java:36)
+	at org.junit.jupiter.api.Assertions.assertDoesNotThrow(Assertions.java:3199)
+	at es.codelearnacademy.filelab.validation.ProductoValidatorTest.aceptaProductoValido(ProductoValidatorTest.java:11)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+Caused by: java.lang.UnsupportedOperationException: Función no implementada
+	at es.codelearnacademy.filelab.validation.ProductoValidator.validar(ProductoValidator.java:11)
+	at es.codelearnacademy.filelab.validation.ProductoValidatorTest.lambda$aceptaProductoValido$0(ProductoValidatorTest.java:12)
+	at org.junit.jupiter.api.AssertDoesNotThrow.assertDoesNotThrow(AssertDoesNotThrow.java:49)
+	... 6 more
+
+es.codelearnacademy.filelab.validation.ProductoValidatorTest.rechazaIdNoPositivo -- Time elapsed: 0.001 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: Unexpected exception type thrown, expected: <java.lang.IllegalArgumentException> but was: <java.lang.UnsupportedOperationException>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:67)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:35)
+	at org.junit.jupiter.api.Assertions.assertThrows(Assertions.java:3128)
+	at es.codelearnacademy.filelab.validation.ProductoValidatorTest.rechazaIdNoPositivo(ProductoValidatorTest.java:17)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+Caused by: java.lang.UnsupportedOperationException: Función no implementada
+	at es.codelearnacademy.filelab.validation.ProductoValidator.validar(ProductoValidator.java:11)
+	at es.codelearnacademy.filelab.validation.ProductoValidatorTest.lambda$rechazaIdNoPositivo$1(ProductoValidatorTest.java:18)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:53)
+	... 6 more
+

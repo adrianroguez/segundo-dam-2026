@@ -1,0 +1,36 @@
+-------------------------------------------------------------------------------
+Test set: es.codelearnacademy.filelab.service.FileFormatTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 1, Errors: 2, Skipped: 0, Time elapsed: 0.002 s <<< FAILURE! -- in es.codelearnacademy.filelab.service.FileFormatTest
+es.codelearnacademy.filelab.service.FileFormatTest.rechazaFormatoDesconocido -- Time elapsed: 0.001 s <<< FAILURE!
+org.opentest4j.AssertionFailedError: Unexpected exception type thrown, expected: <java.lang.IllegalArgumentException> but was: <java.lang.UnsupportedOperationException>
+	at org.junit.jupiter.api.AssertionFailureBuilder.build(AssertionFailureBuilder.java:151)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:67)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:35)
+	at org.junit.jupiter.api.Assertions.assertThrows(Assertions.java:3128)
+	at es.codelearnacademy.filelab.service.FileFormatTest.rechazaFormatoDesconocido(FileFormatTest.java:20)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+Caused by: java.lang.UnsupportedOperationException: Función no implementada
+	at es.codelearnacademy.filelab.service.FileFormat.from(FileFormat.java:9)
+	at es.codelearnacademy.filelab.service.FileFormatTest.lambda$rechazaFormatoDesconocido$0(FileFormatTest.java:20)
+	at org.junit.jupiter.api.AssertThrows.assertThrows(AssertThrows.java:53)
+	... 6 more
+
+es.codelearnacademy.filelab.service.FileFormatTest.reconoceCsv -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.UnsupportedOperationException: Función no implementada
+	at es.codelearnacademy.filelab.service.FileFormat.from(FileFormat.java:9)
+	at es.codelearnacademy.filelab.service.FileFormatTest.reconoceCsv(FileFormatTest.java:10)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+es.codelearnacademy.filelab.service.FileFormatTest.reconoceJsonSinImportarMayusculas -- Time elapsed: 0 s <<< ERROR!
+java.lang.UnsupportedOperationException: Función no implementada
+	at es.codelearnacademy.filelab.service.FileFormat.from(FileFormat.java:9)
+	at es.codelearnacademy.filelab.service.FileFormatTest.reconoceJsonSinImportarMayusculas(FileFormatTest.java:15)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+

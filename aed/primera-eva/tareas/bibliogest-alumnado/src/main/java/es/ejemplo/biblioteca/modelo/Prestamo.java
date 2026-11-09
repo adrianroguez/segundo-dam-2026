@@ -24,44 +24,44 @@ public class Prestamo {
         return idPrestamo;
     }
 
-    public void setIdPrestamo(Integer valor) {
-        this.idPrestamo = valor;
-    }
-
     public Integer getIdSocio() {
         return idSocio;
-    }
-
-    public void setIdSocio(Integer valor) {
-        this.idSocio = valor;
     }
 
     public Integer getIdLibro() {
         return idLibro;
     }
 
-    public void setIdLibro(Integer valor) {
-        this.idLibro = valor;
-    }
-
     public String getFechaPrestamo() {
         return fechaPrestamo;
-    }
-
-    public void setFechaPrestamo(String valor) {
-        this.fechaPrestamo = valor;
     }
 
     public String getFechaLimite() {
         return fechaLimite;
     }
 
-    public void setFechaLimite(String valor) {
-        this.fechaLimite = valor;
-    }
-
     public String getFechaDevolucion() {
         return fechaDevolucion;
+    }
+
+    public void setIdPrestamo(Integer valor) {
+        this.idPrestamo = valor;
+    }
+
+    public void setIdSocio(Integer valor) {
+        this.idSocio = valor;
+    }
+
+    public void setIdLibro(Integer valor) {
+        this.idLibro = valor;
+    }
+
+    public void setFechaPrestamo(String valor) {
+        this.fechaPrestamo = valor;
+    }
+
+    public void setFechaLimite(String valor) {
+        this.fechaLimite = valor;
     }
 
     public void setFechaDevolucion(String valor) {

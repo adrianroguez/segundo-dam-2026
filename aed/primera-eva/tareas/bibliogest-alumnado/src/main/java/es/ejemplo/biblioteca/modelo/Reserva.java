@@ -22,36 +22,36 @@ public class Reserva {
         return idReserva;
     }
 
-    public void setIdReserva(Integer valor) {
-        this.idReserva = valor;
-    }
-
     public Integer getIdSocio() {
         return idSocio;
-    }
-
-    public void setIdSocio(Integer valor) {
-        this.idSocio = valor;
     }
 
     public Integer getIdLibro() {
         return idLibro;
     }
 
-    public void setIdLibro(Integer valor) {
-        this.idLibro = valor;
-    }
-
     public String getFechaReserva() {
         return fechaReserva;
     }
 
-    public void setFechaReserva(String valor) {
-        this.fechaReserva = valor;
-    }
-
     public String getEstado() {
         return estado;
+    }
+
+    public void setIdReserva(Integer valor) {
+        this.idReserva = valor;
+    }
+
+    public void setIdSocio(Integer valor) {
+        this.idSocio = valor;
+    }
+
+    public void setIdLibro(Integer valor) {
+        this.idLibro = valor;
+    }
+
+    public void setFechaReserva(String valor) {
+        this.fechaReserva = valor;
     }
 
     public void setEstado(String valor) {

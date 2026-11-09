@@ -1,0 +1,52 @@
+-------------------------------------------------------------------------------
+Test set: es.codelearnacademy.filelab.io.FileServiceTest
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 0, Errors: 6, Skipped: 0, Time elapsed: 0.012 s <<< FAILURE! -- in es.codelearnacademy.filelab.io.FileServiceTest
+es.codelearnacademy.filelab.io.FileServiceTest.obtieneNombre -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.UnsupportedOperationException: Función no implementada
+	at es.codelearnacademy.filelab.io.FileService.nombre(FileService.java:21)
+	at es.codelearnacademy.filelab.io.FileServiceTest.obtieneNombre(FileServiceTest.java:37)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+es.codelearnacademy.filelab.io.FileServiceTest.detectaArchivoExistente -- Time elapsed: 0.002 s <<< ERROR!
+java.lang.UnsupportedOperationException: Función no implementada
+	at es.codelearnacademy.filelab.io.FileService.existe(FileService.java:9)
+	at es.codelearnacademy.filelab.io.FileServiceTest.detectaArchivoExistente(FileServiceTest.java:20)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+es.codelearnacademy.filelab.io.FileServiceTest.detectaArchivo -- Time elapsed: 0.002 s <<< ERROR!
+java.lang.UnsupportedOperationException: Función no implementada
+	at es.codelearnacademy.filelab.io.FileService.esArchivo(FileService.java:13)
+	at es.codelearnacademy.filelab.io.FileServiceTest.detectaArchivo(FileServiceTest.java:26)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+es.codelearnacademy.filelab.io.FileServiceTest.detectaDirectorio -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.UnsupportedOperationException: Función no implementada
+	at es.codelearnacademy.filelab.io.FileService.esDirectorio(FileService.java:17)
+	at es.codelearnacademy.filelab.io.FileServiceTest.detectaDirectorio(FileServiceTest.java:31)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+es.codelearnacademy.filelab.io.FileServiceTest.convierteAFile -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.UnsupportedOperationException: Función no implementada
+	at es.codelearnacademy.filelab.io.FileService.convertirAFile(FileService.java:33)
+	at es.codelearnacademy.filelab.io.FileServiceTest.convierteAFile(FileServiceTest.java:49)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+es.codelearnacademy.filelab.io.FileServiceTest.convierteAPath -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.UnsupportedOperationException: Función no implementada
+	at es.codelearnacademy.filelab.io.FileService.convertirAPath(FileService.java:29)
+	at es.codelearnacademy.filelab.io.FileServiceTest.convierteAPath(FileServiceTest.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+

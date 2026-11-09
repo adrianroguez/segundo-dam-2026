@@ -1,0 +1,68 @@
+-------------------------------------------------------------------------------
+Test set: es.codelearnacademy.filelab.io.PathServiceTest
+-------------------------------------------------------------------------------
+Tests run: 8, Failures: 0, Errors: 8, Skipped: 0, Time elapsed: 0.007 s <<< FAILURE! -- in es.codelearnacademy.filelab.io.PathServiceTest
+es.codelearnacademy.filelab.io.PathServiceTest.obtieneNombre -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.UnsupportedOperationException: Función no implementada
+	at es.codelearnacademy.filelab.io.PathService.nombre(PathService.java:12)
+	at es.codelearnacademy.filelab.io.PathServiceTest.obtieneNombre(PathServiceTest.java:20)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+es.codelearnacademy.filelab.io.PathServiceTest.normalizaRuta -- Time elapsed: 0 s <<< ERROR!
+java.lang.UnsupportedOperationException: Función no implementada
+	at es.codelearnacademy.filelab.io.PathService.normalizar(PathService.java:24)
+	at es.codelearnacademy.filelab.io.PathServiceTest.normalizaRuta(PathServiceTest.java:32)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+es.codelearnacademy.filelab.io.PathServiceTest.resuelveRuta -- Time elapsed: 0 s <<< ERROR!
+java.lang.UnsupportedOperationException: Función no implementada
+	at es.codelearnacademy.filelab.io.PathService.resolver(PathService.java:32)
+	at es.codelearnacademy.filelab.io.PathServiceTest.resuelveRuta(PathServiceTest.java:38)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+es.codelearnacademy.filelab.io.PathServiceTest.extensionVacia -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.UnsupportedOperationException: Función no implementada
+	at es.codelearnacademy.filelab.io.PathService.extension(PathService.java:40)
+	at es.codelearnacademy.filelab.io.PathServiceTest.extensionVacia(PathServiceTest.java:54)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+es.codelearnacademy.filelab.io.PathServiceTest.obtieneExtension -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.UnsupportedOperationException: Función no implementada
+	at es.codelearnacademy.filelab.io.PathService.extension(PathService.java:40)
+	at es.codelearnacademy.filelab.io.PathServiceTest.obtieneExtension(PathServiceTest.java:49)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+es.codelearnacademy.filelab.io.PathServiceTest.obtienePadre -- Time elapsed: 0 s <<< ERROR!
+java.lang.UnsupportedOperationException: Función no implementada
+	at es.codelearnacademy.filelab.io.PathService.padre(PathService.java:16)
+	at es.codelearnacademy.filelab.io.PathServiceTest.obtienePadre(PathServiceTest.java:26)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+es.codelearnacademy.filelab.io.PathServiceTest.relativizaRuta -- Time elapsed: 0 s <<< ERROR!
+java.lang.UnsupportedOperationException: Función no implementada
+	at es.codelearnacademy.filelab.io.PathService.relativizar(PathService.java:36)
+	at es.codelearnacademy.filelab.io.PathServiceTest.relativizaRuta(PathServiceTest.java:44)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+es.codelearnacademy.filelab.io.PathServiceTest.creaRuta -- Time elapsed: 0 s <<< ERROR!
+java.lang.UnsupportedOperationException: Función no implementada
+	at es.codelearnacademy.filelab.io.PathService.crear(PathService.java:8)
+	at es.codelearnacademy.filelab.io.PathServiceTest.creaRuta(PathServiceTest.java:14)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+

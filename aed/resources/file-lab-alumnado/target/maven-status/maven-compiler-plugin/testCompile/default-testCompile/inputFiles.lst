@@ -1,0 +1,17 @@
+/Users/jpexposito/Downloads/file-lab-alumnado/src/test/java/es/codelearnacademy/filelab/config/PropertiesConfigTest.java
+/Users/jpexposito/Downloads/file-lab-alumnado/src/test/java/es/codelearnacademy/filelab/csv/ProductoCsvRepositoryTest.java
+/Users/jpexposito/Downloads/file-lab-alumnado/src/test/java/es/codelearnacademy/filelab/io/FileServiceTest.java
+/Users/jpexposito/Downloads/file-lab-alumnado/src/test/java/es/codelearnacademy/filelab/io/FilesServiceTest.java
+/Users/jpexposito/Downloads/file-lab-alumnado/src/test/java/es/codelearnacademy/filelab/io/PathServiceTest.java
+/Users/jpexposito/Downloads/file-lab-alumnado/src/test/java/es/codelearnacademy/filelab/io/TextFileServiceTest.java
+/Users/jpexposito/Downloads/file-lab-alumnado/src/test/java/es/codelearnacademy/filelab/json/ProductoJsonRepositoryTest.java
+/Users/jpexposito/Downloads/file-lab-alumnado/src/test/java/es/codelearnacademy/filelab/repository/ProductoRepositoryContractTest.java
+/Users/jpexposito/Downloads/file-lab-alumnado/src/test/java/es/codelearnacademy/filelab/repository/VehiculoRepositoryTest.java
+/Users/jpexposito/Downloads/file-lab-alumnado/src/test/java/es/codelearnacademy/filelab/service/DataBridgeServiceTest.java
+/Users/jpexposito/Downloads/file-lab-alumnado/src/test/java/es/codelearnacademy/filelab/service/FileFormatTest.java
+/Users/jpexposito/Downloads/file-lab-alumnado/src/test/java/es/codelearnacademy/filelab/service/ProductoServiceTest.java
+/Users/jpexposito/Downloads/file-lab-alumnado/src/test/java/es/codelearnacademy/filelab/service/RepositoryFactoryTest.java
+/Users/jpexposito/Downloads/file-lab-alumnado/src/test/java/es/codelearnacademy/filelab/support/FixtureSupport.java
+/Users/jpexposito/Downloads/file-lab-alumnado/src/test/java/es/codelearnacademy/filelab/support/ProductoRepositoryMemoria.java
+/Users/jpexposito/Downloads/file-lab-alumnado/src/test/java/es/codelearnacademy/filelab/validation/ProductoValidatorTest.java
+/Users/jpexposito/Downloads/file-lab-alumnado/src/test/java/es/codelearnacademy/filelab/xml/ProductoXmlRepositoryTest.java

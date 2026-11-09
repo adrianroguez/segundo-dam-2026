@@ -24,44 +24,44 @@ public class Socio {
         return idSocio;
     }
 
-    public void setIdSocio(Integer valor) {
-        this.idSocio = valor;
-    }
-
     public String getNombre() {
         return nombre;
-    }
-
-    public void setNombre(String valor) {
-        this.nombre = valor;
     }
 
     public String getEmail() {
         return email;
     }
 
-    public void setEmail(String valor) {
-        this.email = valor;
-    }
-
     public String getTelefono() {
         return telefono;
-    }
-
-    public void setTelefono(String valor) {
-        this.telefono = valor;
     }
 
     public String getFechaAlta() {
         return fechaAlta;
     }
 
-    public void setFechaAlta(String valor) {
-        this.fechaAlta = valor;
-    }
-
     public Boolean getActivo() {
         return activo;
+    }
+
+    public void setIdSocio(Integer valor) {
+        this.idSocio = valor;
+    }
+
+    public void setNombre(String valor) {
+        this.nombre = valor;
+    }
+
+    public void setEmail(String valor) {
+        this.email = valor;
+    }
+
+    public void setTelefono(String valor) {
+        this.telefono = valor;
+    }
+
+    public void setFechaAlta(String valor) {
+        this.fechaAlta = valor;
     }
 
     public void setActivo(Boolean valor) {

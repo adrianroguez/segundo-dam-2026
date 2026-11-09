@@ -20,28 +20,28 @@ public class Autor {
         return idAutor;
     }
 
-    public void setIdAutor(Integer valor) {
-        this.idAutor = valor;
-    }
-
     public String getNombre() {
         return nombre;
-    }
-
-    public void setNombre(String valor) {
-        this.nombre = valor;
     }
 
     public String getNacionalidad() {
         return nacionalidad;
     }
 
-    public void setNacionalidad(String valor) {
-        this.nacionalidad = valor;
-    }
-
     public Integer getAnioNacimiento() {
         return anioNacimiento;
+    }
+
+    public void setIdAutor(Integer valor) {
+        this.idAutor = valor;
+    }
+
+    public void setNombre(String valor) {
+        this.nombre = valor;
+    }
+
+    public void setNacionalidad(String valor) {
+        this.nacionalidad = valor;
     }
 
     public void setAnioNacimiento(Integer valor) {

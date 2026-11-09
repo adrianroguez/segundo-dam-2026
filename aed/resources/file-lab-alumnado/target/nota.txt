@@ -1,0 +1,35 @@
+=== NOTA POR BLOQUES ===
+
+PATH          0.00/10  (0/8, 8 no superados)
+FILE          0.00/10  (0/6, 6 no superados)
+FILES         0.00/10  (0/8, 8 no superados)
+TEXTO         0.00/10  (0/5, 5 no superados)
+PRODUCTO      0.00/10  (0/13, 13 no superados)
+PROPERTIES    0.00/10  (0/5, 5 no superados)
+CSV           0.00/10  (0/6, 6 no superados)
+JSON          0.00/10  (0/6, 6 no superados)
+XML           0.00/10  (0/6, 6 no superados)
+ARQUITECTURA  0.00/10  (0/7, 7 no superados)
+DATABRIDGE    0.00/10  (0/1, 1 no superados)
+
+=== DOCUMENTACIÓN ===
+JavaDoc IRepository: 0.50/10
+- findAll: descripción insuficiente
+- findAll: falta @return
+- findById: descripción insuficiente
+- findById: falta @param
+- findById: falta @return
+- create: descripción insuficiente
+- create: falta @param
+- create: falta @return
+- update: descripción insuficiente
+- update: falta @param
+- update: falta @return
+- delete: descripción insuficiente
+- delete: falta @param
+- delete: falta @return
+
+=== RESUMEN ===
+Tests:          0.00/10 -> 0.00/8.00
+Documentación:  0.50/10 -> 0.10/2.00
+NOTA FINAL:     0.10/10

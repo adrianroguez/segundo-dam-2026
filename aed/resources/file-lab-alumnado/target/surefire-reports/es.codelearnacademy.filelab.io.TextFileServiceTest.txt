@@ -1,0 +1,44 @@
+-------------------------------------------------------------------------------
+Test set: es.codelearnacademy.filelab.io.TextFileServiceTest
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 0, Errors: 5, Skipped: 0, Time elapsed: 0.006 s <<< FAILURE! -- in es.codelearnacademy.filelab.io.TextFileServiceTest
+es.codelearnacademy.filelab.io.TextFileServiceTest.lecturaInexistenteVacia -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.UnsupportedOperationException: Función no implementada
+	at es.codelearnacademy.filelab.io.TextFileService.leer(TextFileService.java:13)
+	at es.codelearnacademy.filelab.io.TextFileServiceTest.lecturaInexistenteVacia(TextFileServiceTest.java:33)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+es.codelearnacademy.filelab.io.TextFileServiceTest.anexaContenido -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.UnsupportedOperationException: Función no implementada
+	at es.codelearnacademy.filelab.io.TextFileService.escribir(TextFileService.java:9)
+	at es.codelearnacademy.filelab.io.TextFileServiceTest.anexaContenido(TextFileServiceTest.java:44)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+es.codelearnacademy.filelab.io.TextFileServiceTest.lineasInexistentesVacias -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.UnsupportedOperationException: Función no implementada
+	at es.codelearnacademy.filelab.io.TextFileService.leerLineas(TextFileService.java:21)
+	at es.codelearnacademy.filelab.io.TextFileServiceTest.lineasInexistentesVacias(TextFileServiceTest.java:38)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+es.codelearnacademy.filelab.io.TextFileServiceTest.escribeYLeeUtf8 -- Time elapsed: 0 s <<< ERROR!
+java.lang.UnsupportedOperationException: Función no implementada
+	at es.codelearnacademy.filelab.io.TextFileService.escribir(TextFileService.java:9)
+	at es.codelearnacademy.filelab.io.TextFileServiceTest.escribeYLeeUtf8(TextFileServiceTest.java:19)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+es.codelearnacademy.filelab.io.TextFileServiceTest.escribeYLeeLineas -- Time elapsed: 0 s <<< ERROR!
+java.lang.UnsupportedOperationException: Función no implementada
+	at es.codelearnacademy.filelab.io.TextFileService.escribirLineas(TextFileService.java:17)
+	at es.codelearnacademy.filelab.io.TextFileServiceTest.escribeYLeeLineas(TextFileServiceTest.java:27)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+

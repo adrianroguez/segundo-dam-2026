@@ -1,0 +1,52 @@
+-------------------------------------------------------------------------------
+Test set: es.codelearnacademy.filelab.json.ProductoJsonRepositoryTest
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 0, Errors: 6, Skipped: 0, Time elapsed: 0.006 s <<< FAILURE! -- in es.codelearnacademy.filelab.json.ProductoJsonRepositoryTest
+es.codelearnacademy.filelab.json.ProductoJsonRepositoryTest.idInexistenteVacio -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.UnsupportedOperationException: Función no implementada
+	at es.codelearnacademy.filelab.repository.AbstractFileRepository.findById(AbstractFileRepository.java:16)
+	at es.codelearnacademy.filelab.repository.ProductoRepositoryContractTest.idInexistenteVacio(ProductoRepositoryContractTest.java:30)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+es.codelearnacademy.filelab.json.ProductoJsonRepositoryTest.creaProducto -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.UnsupportedOperationException: Función no implementada
+	at es.codelearnacademy.filelab.repository.AbstractFileRepository.create(AbstractFileRepository.java:21)
+	at es.codelearnacademy.filelab.repository.ProductoRepositoryContractTest.creaProducto(ProductoRepositoryContractTest.java:37)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+es.codelearnacademy.filelab.json.ProductoJsonRepositoryTest.leeTodosLosProductos -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.UnsupportedOperationException: Función no implementada
+	at es.codelearnacademy.filelab.repository.AbstractFileRepository.findAll(AbstractFileRepository.java:11)
+	at es.codelearnacademy.filelab.repository.ProductoRepositoryContractTest.leeTodosLosProductos(ProductoRepositoryContractTest.java:17)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+es.codelearnacademy.filelab.json.ProductoJsonRepositoryTest.encuentraProductoPorId -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.UnsupportedOperationException: Función no implementada
+	at es.codelearnacademy.filelab.repository.AbstractFileRepository.findById(AbstractFileRepository.java:16)
+	at es.codelearnacademy.filelab.repository.ProductoRepositoryContractTest.encuentraProductoPorId(ProductoRepositoryContractTest.java:23)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+es.codelearnacademy.filelab.json.ProductoJsonRepositoryTest.actualizaProducto -- Time elapsed: 0 s <<< ERROR!
+java.lang.UnsupportedOperationException: Función no implementada
+	at es.codelearnacademy.filelab.repository.AbstractFileRepository.update(AbstractFileRepository.java:26)
+	at es.codelearnacademy.filelab.repository.ProductoRepositoryContractTest.actualizaProducto(ProductoRepositoryContractTest.java:45)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+es.codelearnacademy.filelab.json.ProductoJsonRepositoryTest.eliminaProducto -- Time elapsed: 0 s <<< ERROR!
+java.lang.UnsupportedOperationException: Función no implementada
+	at es.codelearnacademy.filelab.repository.AbstractFileRepository.delete(AbstractFileRepository.java:31)
+	at es.codelearnacademy.filelab.repository.ProductoRepositoryContractTest.eliminaProducto(ProductoRepositoryContractTest.java:52)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+

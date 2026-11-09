@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: es.codelearnacademy.filelab.service.DataBridgeServiceTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.003 s <<< FAILURE! -- in es.codelearnacademy.filelab.service.DataBridgeServiceTest
+es.codelearnacademy.filelab.service.DataBridgeServiceTest.convierteCsvAJson -- Time elapsed: 0.003 s <<< ERROR!
+java.lang.UnsupportedOperationException: Función no implementada
+	at es.codelearnacademy.filelab.service.DataBridgeService.convert(DataBridgeService.java:15)
+	at es.codelearnacademy.filelab.service.DataBridgeServiceTest.convierteCsvAJson(DataBridgeServiceTest.java:21)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+

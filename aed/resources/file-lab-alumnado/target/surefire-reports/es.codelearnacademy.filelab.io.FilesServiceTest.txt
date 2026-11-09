@@ -1,0 +1,68 @@
+-------------------------------------------------------------------------------
+Test set: es.codelearnacademy.filelab.io.FilesServiceTest
+-------------------------------------------------------------------------------
+Tests run: 8, Failures: 0, Errors: 8, Skipped: 0, Time elapsed: 0.012 s <<< FAILURE! -- in es.codelearnacademy.filelab.io.FilesServiceTest
+es.codelearnacademy.filelab.io.FilesServiceTest.creaDirectorio -- Time elapsed: 0.002 s <<< ERROR!
+java.lang.UnsupportedOperationException: Función no implementada
+	at es.codelearnacademy.filelab.io.FilesService.crearDirectorio(FilesService.java:14)
+	at es.codelearnacademy.filelab.io.FilesServiceTest.creaDirectorio(FilesServiceTest.java:19)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+es.codelearnacademy.filelab.io.FilesServiceTest.eliminaArchivo -- Time elapsed: 0.002 s <<< ERROR!
+java.lang.UnsupportedOperationException: Función no implementada
+	at es.codelearnacademy.filelab.io.FilesService.eliminar(FilesService.java:34)
+	at es.codelearnacademy.filelab.io.FilesServiceTest.eliminaArchivo(FilesServiceTest.java:57)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+es.codelearnacademy.filelab.io.FilesServiceTest.copiaArchivo -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.UnsupportedOperationException: Función no implementada
+	at es.codelearnacademy.filelab.io.FilesService.copiar(FilesService.java:26)
+	at es.codelearnacademy.filelab.io.FilesServiceTest.copiaArchivo(FilesServiceTest.java:41)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+es.codelearnacademy.filelab.io.FilesServiceTest.creaDirectoriosAnidados -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.UnsupportedOperationException: Función no implementada
+	at es.codelearnacademy.filelab.io.FilesService.crearDirectorios(FilesService.java:18)
+	at es.codelearnacademy.filelab.io.FilesServiceTest.creaDirectoriosAnidados(FilesServiceTest.java:26)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+es.codelearnacademy.filelab.io.FilesServiceTest.tamanioInexistenteVacio -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.UnsupportedOperationException: Función no implementada
+	at es.codelearnacademy.filelab.io.FilesService.tamanio(FilesService.java:38)
+	at es.codelearnacademy.filelab.io.FilesServiceTest.tamanioInexistenteVacio(FilesServiceTest.java:69)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+es.codelearnacademy.filelab.io.FilesServiceTest.calculaTamanio -- Time elapsed: 0.001 s <<< ERROR!
+java.lang.UnsupportedOperationException: Función no implementada
+	at es.codelearnacademy.filelab.io.FilesService.tamanio(FilesService.java:38)
+	at es.codelearnacademy.filelab.io.FilesServiceTest.calculaTamanio(FilesServiceTest.java:64)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+es.codelearnacademy.filelab.io.FilesServiceTest.mueveArchivo -- Time elapsed: 0 s <<< ERROR!
+java.lang.UnsupportedOperationException: Función no implementada
+	at es.codelearnacademy.filelab.io.FilesService.mover(FilesService.java:30)
+	at es.codelearnacademy.filelab.io.FilesServiceTest.mueveArchivo(FilesServiceTest.java:49)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+es.codelearnacademy.filelab.io.FilesServiceTest.creaArchivo -- Time elapsed: 0 s <<< ERROR!
+java.lang.UnsupportedOperationException: Función no implementada
+	at es.codelearnacademy.filelab.io.FilesService.crearArchivo(FilesService.java:22)
+	at es.codelearnacademy.filelab.io.FilesServiceTest.creaArchivo(FilesServiceTest.java:33)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+
